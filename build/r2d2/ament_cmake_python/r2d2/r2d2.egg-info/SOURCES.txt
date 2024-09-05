@@ -1,0 +1,7 @@
+setup.py
+r2d2/__init__.py
+r2d2/euler_to_quaternion.py
+r2d2.egg-info/PKG-INFO
+r2d2.egg-info/SOURCES.txt
+r2d2.egg-info/dependency_links.txt
+r2d2.egg-info/top_level.txt

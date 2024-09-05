@@ -1,0 +1,437 @@
+[0.000000] (-) TimerEvent: {}
+[0.001747] (r2d2) JobQueued: {'identifier': 'r2d2', 'dependencies': OrderedDict()}
+[0.001938] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002705] (r2d2) JobStarted: {'identifier': 'r2d2'}
+[0.039443] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.082775] (r2d2) JobProgress: {'identifier': 'r2d2', 'progress': 'cmake'}
+[0.087456] (r2d2) JobProgress: {'identifier': 'r2d2', 'progress': 'build'}
+[0.090923] (r2d2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lidar/lidar/build/r2d2', '--', '-j4', '-l4'], 'cwd': '/home/lidar/lidar/build/r2d2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lidar'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/lidar'), ('OLDPWD', '/home/lidar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1257'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lidar/lidar/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'lidar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lidar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lidar-desktop:@/tmp/.ICE-unix/1206,unix/lidar-desktop:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce331453_cc2f_4c9a_ae67_b0d880bed7ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.70AUT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lidar/lidar/build/r2d2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron')]), 'shell': False}
+[0.100050] (-) TimerEvent: {}
+[0.112859] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.123118] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.126866] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lidar/lidar/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/lidar/lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lidar'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/lidar'), ('OLDPWD', '/home/lidar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1257'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lidar/lidar/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'lidar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lidar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lidar-desktop:@/tmp/.ICE-unix/1206,unix/lidar-desktop:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce331453_cc2f_4c9a_ae67_b0d880bed7ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.70AUT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lidar/lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron')]), 'shell': False}
+[0.200339] (-) TimerEvent: {}
+[0.301234] (-) TimerEvent: {}
+[0.402272] (-) TimerEvent: {}
+[0.406720] (r2d2) StdoutLine: {'line': b'Built target ament_cmake_python_copy_r2d2\n'}
+[0.438486] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.469633] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_node\n'}
+[0.485833] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[0.502453] (-) TimerEvent: {}
+[0.538547] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.602620] (-) TimerEvent: {}
+[0.703783] (-) TimerEvent: {}
+[0.804566] (-) TimerEvent: {}
+[0.905752] (-) TimerEvent: {}
+[0.999689] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[1.006027] (-) TimerEvent: {}
+[1.037937] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lidar/lidar/build/rplidar_ros'], 'cwd': '/home/lidar/lidar/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lidar'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/lidar'), ('OLDPWD', '/home/lidar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1257'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lidar/lidar/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'lidar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lidar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lidar-desktop:@/tmp/.ICE-unix/1206,unix/lidar-desktop:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce331453_cc2f_4c9a_ae67_b0d880bed7ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.70AUT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lidar/lidar/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron')]), 'shell': False}
+[1.077970] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.078702] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[1.079699] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[1.080499] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[1.081242] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[1.082078] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[1.082951] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[1.083675] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[1.084557] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[1.085307] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[1.086157] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[1.087223] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[1.087872] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[1.088378] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[1.088913] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[1.089375] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launchled.py\n'}
+[1.089780] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launchleft.py\n'}
+[1.090839] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[1.091374] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[1.091788] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launchright.py\n'}
+[1.092252] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[1.092660] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[1.093081] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[1.093946] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[1.094465] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[1.094932] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[1.095692] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[1.096339] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[1.097070] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[1.097814] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[1.098730] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[1.099432] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[1.100133] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[1.100655] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[1.101130] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[1.101930] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[1.102627] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[1.103572] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[1.104255] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[1.104841] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[1.105426] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[1.106250] (-) TimerEvent: {}
+[1.107339] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[1.108057] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[1.109473] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[1.111523] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[1.113628] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.114475] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.115096] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[1.115932] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[1.117084] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[1.118456] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.206443] (-) TimerEvent: {}
+[1.307216] (-) TimerEvent: {}
+[1.408445] (-) TimerEvent: {}
+[1.509229] (-) TimerEvent: {}
+[1.611121] (-) TimerEvent: {}
+[1.659260] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[1.711287] (-) TimerEvent: {}
+[1.811975] (-) TimerEvent: {}
+[1.912669] (-) TimerEvent: {}
+[1.955460] (r2d2) StdoutLine: {'line': b'running egg_info\n'}
+[1.958412] (r2d2) StdoutLine: {'line': b'writing r2d2.egg-info/PKG-INFO\n'}
+[1.959581] (r2d2) StdoutLine: {'line': b'writing dependency_links to r2d2.egg-info/dependency_links.txt\n'}
+[1.961160] (r2d2) StdoutLine: {'line': b'writing top-level names to r2d2.egg-info/top_level.txt\n'}
+[1.972073] (r2d2) StdoutLine: {'line': b"reading manifest file 'r2d2.egg-info/SOURCES.txt'\n"}
+[1.975403] (r2d2) StdoutLine: {'line': b"writing manifest file 'r2d2.egg-info/SOURCES.txt'\n"}
+[2.012966] (-) TimerEvent: {}
+[2.114405] (-) TimerEvent: {}
+[2.119605] (r2d2) StdoutLine: {'line': b'Built target ament_cmake_python_build_r2d2_egg\n'}
+[2.164297] (r2d2) CommandEnded: {'returncode': 0}
+[2.214544] (-) TimerEvent: {}
+[2.300707] (r2d2) JobProgress: {'identifier': 'r2d2', 'progress': 'install'}
+[2.301982] (r2d2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lidar/lidar/build/r2d2'], 'cwd': '/home/lidar/lidar/build/r2d2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lidar'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/lidar'), ('OLDPWD', '/home/lidar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1257'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lidar/lidar/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'lidar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lidar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lidar-desktop:@/tmp/.ICE-unix/1206,unix/lidar-desktop:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ce331453_cc2f_4c9a_ae67_b0d880bed7ba'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.70AUT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lidar/lidar/build/r2d2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lidar/lidar/install/rplidar_ros:/home/lidar/lidar/install/r2d2:/opt/ros/iron')]), 'shell': False}
+[2.314722] (-) TimerEvent: {}
+[2.340685] (r2d2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.341590] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config\n'}
+[2.342710] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/realsense_config.json\n'}
+[2.343417] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/atirobotbase.yaml\n'}
+[2.344052] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/realsense-jo.json\n'}
+[2.344680] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/mentes.json\n'}
+[2.345386] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/filter_right.yaml\n'}
+[2.346434] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/ekfultimate2.yaml\n'}
+[2.348105] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/filter_left.yaml\n'}
+[2.348765] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history\n'}
+[2.350374] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419140425.json\n'}
+[2.351362] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125117.json\n'}
+[2.351883] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419131733.json\n'}
+[2.352263] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419131656.json\n'}
+[2.352862] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125304.json\n'}
+[2.353389] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419140424.json\n'}
+[2.354031] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125303.json\n'}
+[2.354595] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125252.json\n'}
+[2.355106] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125047.json\n'}
+[2.355694] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419131509.json\n'}
+[2.356331] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/ekfultimate3.yaml\n'}
+[2.356828] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/realsense-default.json\n'}
+[2.357370] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/file.txt\n'}
+[2.357740] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/config/ekfultimate.yaml\n'}
+[2.358442] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch\n'}
+[2.358929] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/nav2.py\n'}
+[2.359318] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/mergeros2.cpp\n'}
+[2.359688] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slamv2.py\n'}
+[2.360161] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/mlauncher.py\n'}
+[2.360990] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/simulation.py\n'}
+[2.361561] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/gazebo.launch\n'}
+[2.362233] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launcher.py\n'}
+[2.362740] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/robotlocalization2.py\n'}
+[2.363271] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibotlaunchv2.py\n'}
+[2.363776] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/mentes.py\n'}
+[2.364191] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/alexkamera.py\n'}
+[2.364732] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slam.py\n'}
+[2.365250] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibottest.py\n'}
+[2.365658] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history\n'}
+[2.366355] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101123.py\n'}
+[2.366835] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702100919.py\n'}
+[2.367302] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/launcher_20240613095539.py\n'}
+[2.367733] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101207.py\n'}
+[2.368255] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101122.py\n'}
+[2.368788] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101018.py\n'}
+[2.369165] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101208.py\n'}
+[2.369671] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launcg\n'}
+[2.370221] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/display.launch\n'}
+[2.370892] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launchermentesmukodo.py\n'}
+[2.371496] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/CUDAELOTTISZAR.py\n'}
+[2.372011] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibotlaunch.py\n'}
+[2.372574] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/nav2launch.py\n'}
+[2.373112] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/merge.py\n'}
+[2.373611] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibot_nav2_v1.py\n'}
+[2.374180] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/test.py\n'}
+[2.374627] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/map_saver.py\n'}
+[2.375122] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/robotlocalization.py\n'}
+[2.375787] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibotslam.py\n'}
+[2.376319] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/camera.py\n'}
+[2.376728] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/basic_launch_nav2_v2.py\n'}
+[2.377150] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/robotstate.py\n'}
+[2.377580] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/lidar.py\n'}
+[2.378039] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launchcam.py\n'}
+[2.378369] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slamv3d.py\n'}
+[2.378723] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slamv3.py\n'}
+[2.379223] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/realsense_launch.py\n'}
+[2.379731] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/localization.py\n'}
+[2.380091] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/launch/hoverboard_launch.py\n'}
+[2.380743] (r2d2) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/lidartest.py\n'}
+[2.381259] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/meshes\n'}
+[2.381696] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/d435.dae\n'}
+[2.382229] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/robotbase.stl\n'}
+[2.382678] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/drivewhl_r_link.STL\n'}
+[2.383137] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/d415.stl\n'}
+[2.383556] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/drivewhl_l_link.STL\n'}
+[2.384048] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/urdf\n'}
+[2.384442] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/atirobotbase.urdf\n'}
+[2.384907] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/_materials.urdf.xacro\n'}
+[2.385548] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/atirobotbase copy.urdf\n'}
+[2.386138] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/atirobotbase copy 2.urdf\n'}
+[2.386635] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/_d435.urdf.xacro\n'}
+[2.387058] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models\n'}
+[2.387416] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/r2d2.urdf\n'}
+[2.387884] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/normalis.urdf\n'}
+[2.388366] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description\n'}
+[2.388892] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model_v3.sdf\n'}
+[2.389308] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model_v2.sdf\n'}
+[2.389764] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/newmodel.sdf\n'}
+[2.390465] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model.config\n'}
+[2.391013] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model.sdf\n'}
+[2.391469] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes\n'}
+[2.392156] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/robotbase.stl\n'}
+[2.392649] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/base_link.stl\n'}
+[2.393071] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/linkLeft_link.STL\n'}
+[2.393645] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/wrist.stl\n'}
+[2.394269] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/linkRight_link.STL\n'}
+[2.394667] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/elbow.stl\n'}
+[2.395318] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/bicep.stl\n'}
+[2.395901] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/arm_base.stl\n'}
+[2.396363] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/robot_base.stl\n'}
+[2.396770] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/wheel.stl\n'}
+[2.397140] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor\n'}
+[2.397619] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(1).sdf\n'}
+[2.398160] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(2).sdf\n'}
+[2.398651] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(2).config\n'}
+[2.399062] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(1).config\n'}
+[2.399601] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model.config\n'}
+[2.399953] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model.sdf\n'}
+[2.400610] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes\n'}
+[2.401191] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(1).obj\n'}
+[2.401600] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor2.dae\n'}
+[2.402122] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(2).dae\n'}
+[2.402610] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(2).obj\n'}
+[2.403017] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(1).dae\n'}
+[2.403383] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor2(2).dae\n'}
+[2.403732] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor.dae\n'}
+[2.404310] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor.obj\n'}
+[2.404832] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor2(1).dae\n'}
+[2.405493] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/vikirobot.urdf\n'}
+[2.406414] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/r2d2mentes..urdf\n'}
+[2.406977] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/atirobotbase.urdf\n'}
+[2.407496] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/_materials.urdf.xacro\n'}
+[2.408002] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock\n'}
+[2.408414] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.sdf~\n'}
+[2.408838] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials\n'}
+[2.409379] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials/textures\n'}
+[2.410053] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials/textures/BKP_Marker0.png\n'}
+[2.410666] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials/textures/Marker0.png\n'}
+[2.411215] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model-1_4.sdf~\n'}
+[2.411712] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.config~.xml\n'}
+[2.412165] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model-1_5.sdf~\n'}
+[2.412663] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.config\n'}
+[2.413029] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.sdf\n'}
+[2.413386] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/meshes\n'}
+[2.414103] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/meshes/Marker0.dae\n'}
+[2.414566] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell\n'}
+[2.415270] (-) TimerEvent: {}
+[2.416035] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials\n'}
+[2.416691] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures\n'}
+[2.417175] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RollupDoor.png\n'}
+[2.417557] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Bin(1).png\n'}
+[2.417970] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Shelves(1).png\n'}
+[2.418618] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Corrugated.png\n'}
+[2.419152] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Yellow(1).png\n'}
+[2.419817] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Plywood(2).png\n'}
+[2.420366] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pillar.png\n'}
+[2.420958] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/ControlPanel.png\n'}
+[2.421333] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RubberMat(1).png\n'}
+[2.421690] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Yellow.png\n'}
+[2.422092] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RollupDoor(2).png\n'}
+[2.422587] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Concrete(2).png\n'}
+[2.422956] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Conveyor.png\n'}
+[2.423285] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/PalletWrap(1).png\n'}
+[2.423633] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Yellow(2).png\n'}
+[2.424017] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Concrete(1).png\n'}
+[2.424401] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pallet(2).png\n'}
+[2.424991] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RubberMat.png\n'}
+[2.425352] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Door_Window.png\n'}
+[2.425762] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Floor(1).png\n'}
+[2.426360] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Bin(2).png\n'}
+[2.427113] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/CardboardBoxes(2).png\n'}
+[2.427563] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/CardboardBoxes(1).png\n'}
+[2.427962] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Floor.png\n'}
+[2.428376] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/PalletWrap(2).png\n'}
+[2.428719] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Floor(2).png\n'}
+[2.429037] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RubberMat(2).png\n'}
+[2.429341] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Door_Window(2).png\n'}
+[2.429701] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Mesh(1).png\n'}
+[2.430106] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Concrete.png\n'}
+[2.430564] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Bin.png\n'}
+[2.430994] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/CardboardBoxes.png\n'}
+[2.431335] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/ControlPanel(2).png\n'}
+[2.431640] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/PalletWrap.png\n'}
+[2.431938] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pillar(2).png\n'}
+[2.432312] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/WorkCell_Render(2).png\n'}
+[2.432646] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/WorkCell_Render.png\n'}
+[2.432984] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Plywood(1).png\n'}
+[2.433418] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Plywood.png\n'}
+[2.433803] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Corrugated(2).png\n'}
+[2.434614] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/ControlPanel(1).png\n'}
+[2.435172] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Stairs(1).png\n'}
+[2.435567] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pallet(1).png\n'}
+[2.435940] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Shelves.png\n'}
+[2.436306] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Stairs(2).png\n'}
+[2.436684] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Conveyor(1).png\n'}
+[2.437098] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Conveyor(2).png\n'}
+[2.437453] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Mesh.png\n'}
+[2.437813] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pillar(1).png\n'}
+[2.438247] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Stairs.png\n'}
+[2.438607] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Shelves(2).png\n'}
+[2.438958] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Mesh(2).png\n'}
+[2.439446] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RollupDoor(1).png\n'}
+[2.439829] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pallet.png\n'}
+[2.440220] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Corrugated(1).png\n'}
+[2.440730] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/WorkCell_Render(1).png\n'}
+[2.441170] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Door_Window(1).png\n'}
+[2.441537] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(1).sdf\n'}
+[2.441950] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(2).sdf\n'}
+[2.442482] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(2).config\n'}
+[2.442935] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(1).config\n'}
+[2.443381] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model.config\n'}
+[2.443878] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model.sdf\n'}
+[2.444529] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes\n'}
+[2.444995] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh.dae\n'}
+[2.445460] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh(1).dae\n'}
+[2.446100] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh_backup(2).dae\n'}
+[2.447391] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh_backup.dae\n'}
+[2.448544] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh_backup(1).dae\n'}
+[2.449333] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh(2).dae\n'}
+[2.449947] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin\n'}
+[2.450690] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials\n'}
+[2.451367] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures\n'}
+[2.451863] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures/bin(2).png\n'}
+[2.452193] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures/bin.png\n'}
+[2.452587] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures/bin(1).png\n'}
+[2.452908] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(1).sdf\n'}
+[2.453224] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(2).sdf\n'}
+[2.453546] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(2).config\n'}
+[2.454152] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(1).config\n'}
+[2.454502] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model.config\n'}
+[2.454834] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model.sdf\n'}
+[2.455189] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes\n'}
+[2.455521] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes/bin(2).dae\n'}
+[2.455829] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes/bin(1).dae\n'}
+[2.456131] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes/bin.dae\n'}
+[2.456434] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/_d435i.urdf.xacro\n'}
+[2.456734] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/penteknemelbaszotturdf.urdf\n'}
+[2.457031] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/vikirobot\n'}
+[2.457328] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/vikirobot/model.sdf\n'}
+[2.457635] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/models/_d435.urdf.xacro\n'}
+[2.458039] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz\n'}
+[2.458440] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense4.rviz\n'}
+[2.458962] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsenselidar.rviz\n'}
+[2.459315] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/inventory_world\n'}
+[2.459735] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/inventory_world/nav2_config.rviz\n'}
+[2.460375] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense3.rviz\n'}
+[2.460853] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense2.rviz\n'}
+[2.461261] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/minta.rviz\n'}
+[2.461652] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/new_test.rviz\n'}
+[2.462035] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_configwithrealsense.rviz\n'}
+[2.462359] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense.rviz\n'}
+[2.462660] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config4.rviz\n'}
+[2.462957] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/mentes.rviz\n'}
+[2.463278] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config3.rviz\n'}
+[2.463754] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config5.rviz\n'}
+[2.464234] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/alex.rviz\n'}
+[2.464603] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/urdf_config.rviz\n'}
+[2.464966] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config2 copy.rviz\n'}
+[2.465329] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2.rviz\n'}
+[2.465684] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config.rviz\n'}
+[2.466120] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/worlds\n'}
+[2.466465] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/inventory.world\n'}
+[2.466820] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/factory.world\n'}
+[2.467183] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/basic_mobile_bot_world\n'}
+[2.467545] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/basic_mobile_bot_world/smalltown.world\n'}
+[2.467911] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params\n'}
+[2.468283] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/realsense_params2.yaml\n'}
+[2.468779] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/depth_image_to_laserscan_params.yaml\n'}
+[2.469139] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/na2jo.yaml\n'}
+[2.469486] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2_params copy.yaml\n'}
+[2.469839] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/pointcloud_node_params.yaml\n'}
+[2.470304] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/map_saver.yaml\n'}
+[2.470766] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2_params.yaml\n'}
+[2.471255] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/realsense_params.yaml\n'}
+[2.471819] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/alex.txt\n'}
+[2.472368] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/va.yaml\n'}
+[2.472823] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/defaultnav2.yaml\n'}
+[2.473282] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/MOnday24.yaml\n'}
+[2.473932] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/slam.yaml\n'}
+[2.474390] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2mentes.yaml\n'}
+[2.474772] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/mentes.yaml\n'}
+[2.475152] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/defaultnav2 copy.yaml\n'}
+[2.475526] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2paramsy.yaml\n'}
+[2.475899] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps\n'}
+[2.476269] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/my_map.yaml\n'}
+[2.476612] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/map_1688027577.pgm\n'}
+[2.477001] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/inventory_world\n'}
+[2.477394] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/inventory_world/inventory_world.yaml\n'}
+[2.477804] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/inventory_world/inventory_world.pgm\n'}
+[2.478261] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/skynet.yaml\n'}
+[2.478902] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/my_map.pgm\n'}
+[2.479292] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/factory_world\n'}
+[2.479661] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/factory_world/factory_world.yaml\n'}
+[2.480047] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/factory_world/factory_world.pgm\n'}
+[2.480426] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/skynet.pgm\n'}
+[2.480806] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/maps/map_1688027577.yaml\n'}
+[2.481181] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include\n'}
+[2.481552] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters\n'}
+[2.481985] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/footprint_filter.h\n'}
+[2.482385] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/scan_mask_filter.h\n'}
+[2.482759] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/median_filter.h\n'}
+[2.483113] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/interpolation_filter.h\n'}
+[2.483552] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/speckle_filter.h\n'}
+[2.483891] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/scan_shadow_detector.h\n'}
+[2.484194] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/angular_bounds_filter.h\n'}
+[2.484491] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/scan_shadows_filter.h\n'}
+[2.484787] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/range_filter.h\n'}
+[2.485083] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/intensity_filter.h\n'}
+[2.485377] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/array_filter.h\n'}
+[2.485671] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/box_filter.h\n'}
+[2.486020] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/angular_bounds_filter_in_place.h\n'}
+[2.486336] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/environment/pythonpath.sh\n'}
+[2.486635] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/environment/pythonpath.dsv\n'}
+[2.486931] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info\n'}
+[2.487226] (r2d2) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.487523] (r2d2) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.487819] (r2d2) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.488189] (r2d2) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.488622] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2\n'}
+[2.488973] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2/euler_to_quaternion.py\n'}
+[2.489339] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2/__init__.py\n'}
+[2.515451] (-) TimerEvent: {}
+[2.589849] (r2d2) StdoutLine: {'line': b"Listing '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2'...\n"}
+[2.614554] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/ament_index/resource_index/package_run_dependencies/r2d2\n'}
+[2.615532] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/ament_index/resource_index/parent_prefix_path/r2d2\n'}
+[2.616179] (-) TimerEvent: {}
+[2.616710] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/environment/ament_prefix_path.sh\n'}
+[2.617413] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/environment/ament_prefix_path.dsv\n'}
+[2.617995] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/environment/path.sh\n'}
+[2.618595] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/environment/path.dsv\n'}
+[2.619102] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.bash\n'}
+[2.619490] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.sh\n'}
+[2.619927] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.zsh\n'}
+[2.620647] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.dsv\n'}
+[2.621801] (r2d2) StdoutLine: {'line': b'-- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/package.dsv\n'}
+[2.622426] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/ament_index/resource_index/packages/r2d2\n'}
+[2.622887] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/cmake/r2d2Config.cmake\n'}
+[2.623284] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/cmake/r2d2Config-version.cmake\n'}
+[2.623657] (r2d2) StdoutLine: {'line': b'-- Up-to-date: /home/lidar/lidar/install/r2d2/share/r2d2/package.xml\n'}
+[2.628753] (r2d2) CommandEnded: {'returncode': 0}
+[2.716424] (-) TimerEvent: {}
+[2.817182] (-) TimerEvent: {}
+[2.864323] (r2d2) JobEnded: {'identifier': 'r2d2', 'rc': 0}
+[2.867679] (-) EventReactorShutdown: {}

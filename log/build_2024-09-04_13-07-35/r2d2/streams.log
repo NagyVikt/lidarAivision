@@ -1,0 +1,372 @@
+[0.099s] Invoking command in '/home/lidar/lidar/build/r2d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/lidar/lidar/src/r2d2 -DCMAKE_INSTALL_PREFIX=/home/lidar/lidar/install/r2d2
+[1.295s] -- The C compiler identification is GNU 11.4.0
+[2.116s] -- The CXX compiler identification is GNU 11.4.0
+[2.172s] -- Detecting C compiler ABI info
+[2.610s] -- Detecting C compiler ABI info - done
+[2.640s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.642s] -- Detecting C compile features
+[2.645s] -- Detecting C compile features - done
+[2.667s] -- Detecting CXX compiler ABI info
+[3.112s] -- Detecting CXX compiler ABI info - done
+[3.144s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.145s] -- Detecting CXX compile features
+[3.147s] -- Detecting CXX compile features - done
+[3.187s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[4.366s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.191s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[5.697s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[5.819s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[5.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.169s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[7.203s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[8.066s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.378s] -- Found FastRTPS: /opt/ros/iron/include  
+[8.884s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.359s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[10.739s] -- Configuring done
+[10.791s] -- Generating done
+[10.799s] -- Build files have been written to: /home/lidar/lidar/build/r2d2
+[10.841s] Invoked command in '/home/lidar/lidar/build/r2d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/lidar/lidar/src/r2d2 -DCMAKE_INSTALL_PREFIX=/home/lidar/lidar/install/r2d2
+[10.852s] Invoking command in '/home/lidar/lidar/build/r2d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/lidar/lidar/build/r2d2 -- -j4 -l4
+[11.126s] Built target ament_cmake_python_copy_r2d2
+[12.888s] running egg_info
+[12.891s] creating r2d2.egg-info
+[12.892s] writing r2d2.egg-info/PKG-INFO
+[12.894s] writing dependency_links to r2d2.egg-info/dependency_links.txt
+[12.895s] writing top-level names to r2d2.egg-info/top_level.txt
+[12.897s] writing manifest file 'r2d2.egg-info/SOURCES.txt'
+[12.921s] reading manifest file 'r2d2.egg-info/SOURCES.txt'
+[12.926s] writing manifest file 'r2d2.egg-info/SOURCES.txt'
+[13.120s] Built target ament_cmake_python_build_r2d2_egg
+[13.184s] Invoked command in '/home/lidar/lidar/build/r2d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/lidar/lidar/build/r2d2 -- -j4 -l4
+[13.518s] Invoking command in '/home/lidar/lidar/build/r2d2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/lidar/lidar/build/r2d2
+[13.552s] -- Install configuration: ""
+[13.553s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config
+[13.554s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/realsense_config.json
+[13.556s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/atirobotbase.yaml
+[13.558s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/realsense-jo.json
+[13.568s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/mentes.json
+[13.569s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/filter_right.yaml
+[13.569s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/ekfultimate2.yaml
+[13.570s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/filter_left.yaml
+[13.574s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history
+[13.575s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419140425.json
+[13.578s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125117.json
+[13.580s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419131733.json
+[13.586s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419131656.json
+[13.588s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125304.json
+[13.594s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419140424.json
+[13.596s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125303.json
+[13.600s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125252.json
+[13.607s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419125047.json
+[13.608s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/.history/realsense_config_20240419131509.json
+[13.612s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/ekfultimate3.yaml
+[13.615s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/realsense-default.json
+[13.620s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/file.txt
+[13.621s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/config/ekfultimate.yaml
+[13.625s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch
+[13.628s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/nav2.py
+[13.629s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/mergeros2.cpp
+[13.633s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slamv2.py
+[13.635s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/mlauncher.py
+[13.638s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/simulation.py
+[13.639s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/gazebo.launch
+[13.646s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launcher.py
+[13.647s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/robotlocalization2.py
+[13.649s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibotlaunchv2.py
+[13.654s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/mentes.py
+[13.656s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/alexkamera.py
+[13.660s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slam.py
+[13.669s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibottest.py
+[13.670s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history
+[13.671s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101123.py
+[13.680s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702100919.py
+[13.682s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/launcher_20240613095539.py
+[13.687s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101207.py
+[13.696s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101122.py
+[13.702s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101018.py
+[13.708s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/.history/mlauncher_20240702101208.py
+[13.715s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launcg
+[13.716s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/display.launch
+[13.717s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launchermentesmukodo.py
+[13.721s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/CUDAELOTTISZAR.py
+[13.724s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibotlaunch.py
+[13.727s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/nav2launch.py
+[13.729s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/merge.py
+[13.733s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibot_nav2_v1.py
+[13.735s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/test.py
+[13.736s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/map_saver.py
+[13.737s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/robotlocalization.py
+[13.742s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/atibotslam.py
+[13.752s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/camera.py
+[13.753s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/basic_launch_nav2_v2.py
+[13.764s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/robotstate.py
+[13.772s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/lidar.py
+[13.775s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/launchcam.py
+[13.776s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slamv3d.py
+[13.778s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/slamv3.py
+[13.783s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/realsense_launch.py
+[13.787s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/localization.py
+[13.789s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/hoverboard_launch.py
+[13.791s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/launch/lidartest.py
+[13.794s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/meshes
+[13.795s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/d435.dae
+[13.797s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/robotbase.stl
+[13.802s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/drivewhl_r_link.STL
+[13.805s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/d415.stl
+[14.422s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/meshes/drivewhl_l_link.STL
+[14.424s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/urdf
+[14.426s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/atirobotbase.urdf
+[14.428s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/_materials.urdf.xacro
+[14.431s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/atirobotbase copy.urdf
+[14.433s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/atirobotbase copy 2.urdf
+[14.435s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/urdf/_d435.urdf.xacro
+[14.438s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models
+[14.439s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/r2d2.urdf
+[14.442s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/normalis.urdf
+[14.444s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description
+[14.450s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model_v3.sdf
+[14.453s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model_v2.sdf
+[14.455s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/newmodel.sdf
+[14.457s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model.config
+[14.459s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/model.sdf
+[14.462s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes
+[14.466s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/robotbase.stl
+[14.473s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/base_link.stl
+[14.476s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/linkLeft_link.STL
+[14.477s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/wrist.stl
+[14.478s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/linkRight_link.STL
+[14.479s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/elbow.stl
+[14.480s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/bicep.stl
+[14.481s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/arm_base.stl
+[14.484s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/robot_base.stl
+[14.484s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/ati_bot_description/meshes/wheel.stl
+[14.486s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor
+[14.487s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(1).sdf
+[14.489s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(2).sdf
+[14.490s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(2).config
+[14.492s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model(1).config
+[14.493s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model.config
+[14.494s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/model.sdf
+[14.495s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes
+[14.498s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(1).obj
+[14.498s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor2.dae
+[14.503s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(2).dae
+[14.504s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(2).obj
+[14.505s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor(1).dae
+[14.508s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor2(2).dae
+[14.518s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor.dae
+[14.521s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor.obj
+[14.522s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/conveyor/meshes/conveyor2(1).dae
+[14.524s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/vikirobot.urdf
+[14.525s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/r2d2mentes..urdf
+[14.526s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/atirobotbase.urdf
+[14.527s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/_materials.urdf.xacro
+[14.528s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock
+[14.530s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.sdf~
+[14.531s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials
+[14.533s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials/textures
+[14.535s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials/textures/BKP_Marker0.png
+[14.536s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/materials/textures/Marker0.png
+[14.537s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model-1_4.sdf~
+[14.539s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.config~.xml
+[14.540s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model-1_5.sdf~
+[14.541s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.config
+[14.542s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/model.sdf
+[14.544s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/meshes
+[14.547s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/charging_dock/meshes/Marker0.dae
+[14.549s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell
+[14.550s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials
+[14.553s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures
+[14.556s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RollupDoor.png
+[14.557s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Bin(1).png
+[14.559s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Shelves(1).png
+[14.563s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Corrugated.png
+[14.563s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Yellow(1).png
+[14.565s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Plywood(2).png
+[14.566s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pillar.png
+[14.574s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/ControlPanel.png
+[14.576s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RubberMat(1).png
+[14.578s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Yellow.png
+[14.589s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RollupDoor(2).png
+[14.593s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Concrete(2).png
+[14.594s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Conveyor.png
+[14.597s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/PalletWrap(1).png
+[14.599s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Yellow(2).png
+[14.600s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Concrete(1).png
+[14.603s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pallet(2).png
+[14.606s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RubberMat.png
+[14.607s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Door_Window.png
+[14.607s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Floor(1).png
+[14.608s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Bin(2).png
+[14.614s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/CardboardBoxes(2).png
+[14.615s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/CardboardBoxes(1).png
+[14.616s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Floor.png
+[14.616s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/PalletWrap(2).png
+[14.617s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Floor(2).png
+[14.618s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RubberMat(2).png
+[14.619s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Door_Window(2).png
+[14.620s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Mesh(1).png
+[14.620s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Concrete.png
+[14.621s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Bin.png
+[14.622s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/CardboardBoxes.png
+[14.623s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/ControlPanel(2).png
+[14.624s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/PalletWrap.png
+[14.625s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pillar(2).png
+[14.626s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/WorkCell_Render(2).png
+[14.627s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/WorkCell_Render.png
+[14.627s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Plywood(1).png
+[14.628s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Plywood.png
+[14.629s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Corrugated(2).png
+[14.630s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/ControlPanel(1).png
+[14.630s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Stairs(1).png
+[14.631s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pallet(1).png
+[14.632s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Shelves.png
+[14.635s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Stairs(2).png
+[14.637s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Conveyor(1).png
+[14.638s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Conveyor(2).png
+[14.639s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Mesh.png
+[14.640s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pillar(1).png
+[14.644s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Stairs.png
+[14.648s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Shelves(2).png
+[14.650s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Mesh(2).png
+[14.650s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/RollupDoor(1).png
+[14.653s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Pallet.png
+[14.657s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Wall_Corrugated(1).png
+[14.659s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/WorkCell_Render(1).png
+[14.660s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/materials/textures/Door_Window(1).png
+[14.663s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(1).sdf
+[14.664s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(2).sdf
+[14.664s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(2).config
+[14.669s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model(1).config
+[14.674s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model.config
+[14.677s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/model.sdf
+[14.678s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes
+[14.678s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh.dae
+[14.679s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh(1).dae
+[14.680s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh_backup(2).dae
+[14.681s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh_backup.dae
+[14.682s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh_backup(1).dae
+[14.683s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell/meshes/mesh(2).dae
+[14.684s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin
+[14.686s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials
+[14.687s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures
+[14.688s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures/bin(2).png
+[14.690s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures/bin.png
+[14.690s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/materials/textures/bin(1).png
+[14.698s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(1).sdf
+[14.698s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(2).sdf
+[14.699s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(2).config
+[14.699s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model(1).config
+[14.701s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model.config
+[14.701s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/model.sdf
+[14.702s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes
+[14.702s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes/bin(2).dae
+[14.703s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes/bin(1).dae
+[14.703s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/workcell_bin/meshes/bin.dae
+[14.704s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/_d435i.urdf.xacro
+[14.705s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/penteknemelbaszotturdf.urdf
+[14.706s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/vikirobot
+[14.708s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/vikirobot/model.sdf
+[14.709s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/models/_d435.urdf.xacro
+[14.710s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz
+[14.711s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense4.rviz
+[14.712s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsenselidar.rviz
+[14.714s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/inventory_world
+[14.715s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/inventory_world/nav2_config.rviz
+[14.716s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense3.rviz
+[14.718s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense2.rviz
+[14.719s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/minta.rviz
+[14.720s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/new_test.rviz
+[14.721s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_configwithrealsense.rviz
+[14.726s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/slamwithrealsense.rviz
+[14.726s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config4.rviz
+[14.727s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/mentes.rviz
+[14.733s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config3.rviz
+[14.734s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config5.rviz
+[14.735s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/alex.rviz
+[14.736s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/urdf_config.rviz
+[14.736s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config2 copy.rviz
+[14.737s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2.rviz
+[14.737s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/rviz/nav2_config.rviz
+[14.738s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/worlds
+[14.738s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/inventory.world
+[14.739s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/factory.world
+[14.740s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/basic_mobile_bot_world
+[14.740s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/worlds/basic_mobile_bot_world/smalltown.world
+[14.741s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params
+[14.742s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/realsense_params2.yaml
+[14.743s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/depth_image_to_laserscan_params.yaml
+[14.745s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/na2jo.yaml
+[14.753s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2_params copy.yaml
+[14.753s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/pointcloud_node_params.yaml
+[14.754s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/map_saver.yaml
+[14.755s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2_params.yaml
+[14.755s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/realsense_params.yaml
+[14.756s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/alex.txt
+[14.756s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/va.yaml
+[14.757s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/defaultnav2.yaml
+[14.757s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/MOnday24.yaml
+[14.758s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/slam.yaml
+[14.759s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2mentes.yaml
+[14.760s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/mentes.yaml
+[14.761s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/defaultnav2 copy.yaml
+[14.761s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/params/nav2paramsy.yaml
+[14.762s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps
+[14.762s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/my_map.yaml
+[14.765s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/map_1688027577.pgm
+[14.806s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/inventory_world
+[14.809s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/inventory_world/inventory_world.yaml
+[14.814s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/inventory_world/inventory_world.pgm
+[14.819s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/skynet.yaml
+[14.823s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/my_map.pgm
+[14.844s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/factory_world
+[14.848s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/factory_world/factory_world.yaml
+[14.856s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/factory_world/factory_world.pgm
+[14.882s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/skynet.pgm
+[14.899s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/maps/map_1688027577.yaml
+[14.901s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include
+[14.902s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters
+[14.904s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/footprint_filter.h
+[14.905s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/scan_mask_filter.h
+[14.906s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/median_filter.h
+[14.907s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/interpolation_filter.h
+[14.909s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/speckle_filter.h
+[14.910s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/scan_shadow_detector.h
+[14.911s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/angular_bounds_filter.h
+[14.913s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/scan_shadows_filter.h
+[14.915s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/range_filter.h
+[14.918s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/intensity_filter.h
+[14.919s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/array_filter.h
+[14.919s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/box_filter.h
+[14.922s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/include/laser_filters/angular_bounds_filter_in_place.h
+[14.923s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/environment/pythonpath.sh
+[14.926s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/environment/pythonpath.dsv
+[14.926s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info
+[14.929s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/dependency_links.txt
+[14.931s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/top_level.txt
+[14.934s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/SOURCES.txt
+[14.934s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2-1.0.0-py3.10.egg-info/PKG-INFO
+[14.935s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2
+[14.936s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2/euler_to_quaternion.py
+[14.936s] -- Installing: /home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2/__init__.py
+[15.163s] Listing '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2'...
+[15.164s] Compiling '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2/__init__.py'...
+[15.166s] Compiling '/home/lidar/lidar/install/r2d2/lib/python3.10/site-packages/r2d2/euler_to_quaternion.py'...
+[15.202s] -- Installing: /home/lidar/lidar/install/r2d2/share/ament_index/resource_index/package_run_dependencies/r2d2
+[15.207s] -- Installing: /home/lidar/lidar/install/r2d2/share/ament_index/resource_index/parent_prefix_path/r2d2
+[15.210s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/environment/ament_prefix_path.sh
+[15.213s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/environment/ament_prefix_path.dsv
+[15.216s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/environment/path.sh
+[15.219s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/environment/path.dsv
+[15.221s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.bash
+[15.224s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.sh
+[15.227s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.zsh
+[15.230s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/local_setup.dsv
+[15.233s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/package.dsv
+[15.236s] -- Installing: /home/lidar/lidar/install/r2d2/share/ament_index/resource_index/packages/r2d2
+[15.239s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/cmake/r2d2Config.cmake
+[15.242s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/cmake/r2d2Config-version.cmake
+[15.244s] -- Installing: /home/lidar/lidar/install/r2d2/share/r2d2/package.xml
+[15.258s] Invoked command in '/home/lidar/lidar/build/r2d2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/lidar/lidar/build/r2d2
